@@ -1,6 +1,6 @@
 image:
   repository: bitnami/mongodb
-  tag: 4.0.3
+  tag: 4.0.4
 usePassword: false
 persistence:
   enabled: false
