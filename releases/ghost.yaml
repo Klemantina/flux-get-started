@@ -15,5 +15,5 @@ spec:
     path: charts/ghost
   valuesFrom:
   - chartFileRef:
-    path: for-ghost.yaml
+    path: ../for-ghost.yaml
     optional: false
