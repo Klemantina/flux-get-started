@@ -15,5 +15,5 @@ spec:
     version: 4.9.0
   valuesFrom:
   - chartFileRef:
-      path: for-mongo.yaml
+      path: ../for-mongo.yaml
       optional: false
