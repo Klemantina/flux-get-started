@@ -13,15 +13,7 @@ spec:
     git: ssh://git@github.com/weaveworks/flux-get-started
     ref: master
     path: charts/ghost
-  values:
-    image: bitnami/ghost:1.21.5-r0
-    persistence:
-      enabled: false
-    resources:
-      requests:
-        memory: 32Mi
-        cpu: 10m
-    serviceType: ClusterIP
-    mariadb:
-      persistence:
-        enabled: false
+  valuesFrom:
+  - chartFileRef:
+    path: for-ghost.yaml
+    optional: false
