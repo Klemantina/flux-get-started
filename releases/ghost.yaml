@@ -17,3 +17,5 @@ spec:
   - chartFileRef:
       path: for-ghost.yaml
       optional: false
+  values:
+    image: bitnami/ghost:2.20.1
