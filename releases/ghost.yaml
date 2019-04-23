@@ -17,5 +17,5 @@ spec:
   - externalSourceRef:
       url: https://raw.githubusercontent.com/Klemantina/flux-get-started/master/for-ghost.yaml
       optional: false
-#  values:
-#    image: bitnami/ghost:2.20.1
+  values:
+    image: bitnami/ghost:2.20.1
