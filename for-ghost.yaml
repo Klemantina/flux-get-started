@@ -1,4 +1,4 @@
-image: bitnami/ghost:2.20.1
+image: bitnami/ghost:2.20.1-r1
 persistence:
   enabled: false
 resources:
