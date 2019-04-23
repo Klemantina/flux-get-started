@@ -15,7 +15,7 @@ spec:
     path: charts/ghost
   valuesFrom:
   - externalSourceRef:
-      url: ../for-ghost.yaml
+      url: https://github.com/Klemantina/flux-get-started.git/overrides/for-ghost.yaml
       optional: false
 #  values:
 #    image: bitnami/ghost:2.20.1
