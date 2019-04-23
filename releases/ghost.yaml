@@ -15,7 +15,7 @@ spec:
     path: charts/ghost
   valuesFrom:
   - externalSourceRef:
-      url: https://github.com/Klemantina/flux-get-started/blob/master/for-ghost.yaml
+      url: https://raw.githubusercontent.com/Klemantina/flux-get-started/master/for-ghost.yaml
       optional: false
 #  values:
 #    image: bitnami/ghost:2.20.1
