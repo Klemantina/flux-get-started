@@ -14,8 +14,8 @@ spec:
     ref: master
     path: charts/ghost
   valuesFrom:
-  - chartFileRef:
-      path: for-ghost.yaml
+  - externalSourceRef:
+      path: ../for-ghost.yaml
       optional: false
-  values:
-    image: bitnami/ghost:2.20.1
+#  values:
+#    image: bitnami/ghost:2.20.1
